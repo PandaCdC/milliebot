@@ -25,5 +25,5 @@ module.exports.run = async (bot, message, args) =>{
 
 module.exports.config = {
     name: 'anuncio',
-    aliases: ['anunciar', 'sendbell', '']
+    aliases: ['anunciar', 'sendbell']
 }
