@@ -13,7 +13,7 @@ exports.run = async(bot, message, args, ops) => {
     
     let dmembed = new Discord.RichEmbed()
     .setColor("RANDOM")
-    .setAuthor(`ŞΔĐ ĆØΜΜỮŇƗŦ¥ diz:`, bot.user.avatarURL)
+    .setAuthor(`STCommunity diz:`, bot.user.avatarURL)
     .setDescription("Lista de comandos:\n\n  :small_red_triangle: !help (Lista de comandos) \n :small_red_triangle: !perfil (Verifica o perfil de um usuário)")
     .setFooter(message.author.username, message.author.avatarURL)
     .setTimestamp()
